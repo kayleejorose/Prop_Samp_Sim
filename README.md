@@ -1,5 +1,5 @@
-# Morton REU and REEF project
-Simulation files and R scripts associated with summer REU project and extension fellowship at the Morton Arboretum. Code files were written by Kaylee Rosenberger, Emily Schumacher, and Dr. Sean Hoban in collaboration. 
+# XXX XXX and XXX project
+Simulation files and R scripts associated with summer XXX project and XXX at the XXX. Code files were written by XXX, XXX, and XXX in collaboration. 
 ##### Background
 The overall aim of this project was to contribute to practical seed sampling guidelines for creating and maintaining genetically diverse collections for botanic garden and arboreta. Informing these sampling guidelines is one way to ensure a genetically representative sample is obtained from wild populations. Prior work has found that it is important to consider species' traits like dispersal, mode of reproduction, population history, and more, when sampling from wild populations. **For this project, we were specifically interested in creating guidelines that could apply to species with unequal population sizes.** Previous simulation studies assumed populations of equal sizes for simplicity of the model. Thus, we want to determine how to effectively capture genetic diversity when population sizes vary for a rare species. **The two 'strategies' we tested were equal (an equal number from each population regardless of size) and proportional (sampling proportionally to the population's size).**
 
@@ -13,7 +13,7 @@ We also tested different migration rates and sampling intensities for this porti
 Also, we created case studies to determine whether the same results would be achieved when using realistic parameter values that represent real species, in comparison to our first sets of simulations, which represented a hypothetical rare species. Our case studies were based on 3 species of Oak--Quercus acerifolia, Quercus engelmannii, and Quercus oglethorpensis. Similar to the framework described above, we created realistic parameter values for these species, simulated populations using Simcoal 2, and simulated sampling using R code to randomly select individuals. Again, we tested high and low sampling intensities to compare the diversity captured through each. 
     
 Files include R scripts used for data collection, analysis, and producing plots, and text files containing paramter values used for simulation. 
-As this started as an REU project, multiple attempts or trials were used to gradually build the project, increase realism and revise code.  These initial attempts are stored documented in separate folders, but are not needed to recreate the final results for the project. Each attempt builds on the previous in improving the code efficiency or adding new parameter values.
+As this started as an XXX project, multiple attempts or trials were used to gradually build the project, increase realism and revise code.  These initial attempts are stored documented in separate folders, but are not needed to recreate the final results for the project. Each attempt builds on the previous in improving the code efficiency or adding new parameter values.
 
 #### File types
 **Parameter files:**
@@ -33,7 +33,7 @@ analysis_conversions_calculations.R: converts from Arlequin format to genepop fo
 analysis_data_prep.R: Takes the sampling results and puts them in tidy format for graphing and analysis
 analysis_graphics_results.R: Plots results, and performs Wilcoxon statistical tests, and p value adjustment for multiple comparisons.
 allfreq_capt_prop_equal_samp.R: Calculates alleles frequncy present in high and low migration scenarios, as well as the total alleles present 
-Fa_sample_funcs.R: Function written by Dr. Sean Hoban to calculate allele category frequencies. 
+Fa_sample_funcs.R: Function written by XXX to calculate allele category frequencies. 
 
 Note: For the case studies, the 3 scripts listed above are combined into one single script for each species (files listed in the directory by species). The same general logic is performed in each script. 
 
@@ -64,7 +64,7 @@ Note: For the case studies, the 3 scripts listed above are combined into one sin
             Figures: contain figures generated from R
             R scripts: contains R scripts for sampling code and Rdata files for faster loading
             Simulations: contains all parameter files used for simulation, along with the results of simulation
-        Attempt5_REU_final: Finalized version of code for Summer REU project. Includes 100 simulation replicates, high and low migration rates, and high and low sampling intensity. Slightly improved code efficiency. 
+        Attempt5_XXX_final: Finalized version of code for Summer XXX project. Includes 100 simulation replicates, high and low migration rates, and high and low sampling intensity. Slightly improved code efficiency. 
             Figures: contain figures generated from R
             R scripts: contains R scripts for sampling code and Rdata files for faster loading
             Simulations: contains all parameter files used for simulation, along with the results of simulation

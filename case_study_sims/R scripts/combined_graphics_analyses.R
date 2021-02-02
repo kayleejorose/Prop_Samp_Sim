@@ -1,5 +1,5 @@
 #Combined_graphics.R
-#Code written by Kaylee Rosenberger, Emily Schumacher, and Dr. Sean Hoban in collaboration
+#Code written by XXX, XXX, and XXX in collaboration
 #This script combines all results from three case study species
 #into one large dataframe, so that results could be plotted on one graph for comparison.
 
@@ -14,17 +14,17 @@ library(tidyr)
 library(hierfstat)
 
 #loading in data that was saved from other case study R scripts
-mydir = 'C:\\Users\\kayle\\Documents\\Morton-REU\\case_study_sims\\Simulations\\q_acerifolia'
+mydir = 'C:\\Users\\XXX\\Documents\\XXX-XXX\\case_study_sims\\Simulations\\q_acerifolia'
 setwd(mydir)
 load("combined_results_q_acerifolia.Rdata")
 load("q_acerifolia_fst.Rdata")
 
-mydir = 'C:\\Users\\kayle\\Documents\\Morton-REU\\case_study_sims\\Simulations\\q_engelmannii'
+mydir = 'C:\\Users\\XXX\\Documents\\XXX-XXX\\case_study_sims\\Simulations\\q_engelmannii'
 setwd(mydir)
 load("combined_results_q_engelmannii.Rdata")
 load("q_engelmannii_fst.Rdata")
 
-mydir = 'C:\\Users\\kayle\\Documents\\Morton-REU\\case_study_sims\\Simulations\\q_oglethorpensis'
+mydir = 'C:\\Users\\XXX\\Documents\\XXX-XXX\\case_study_sims\\Simulations\\q_oglethorpensis'
 setwd(mydir)
 load("combined_results_q_oglethorpensis.Rdata")
 load("q_oglethorpensis_fst.Rdata")
@@ -77,6 +77,6 @@ rownames(species_pwfst_df) <- c("QUAC","QUEN","QUOG")
 colnames(species_pwfst_df) <- c("MeanFst", "MinFst", "MaxFst")
 
 ##write out to csv
-mydir = 'C:\\Users\\kayle\\Documents\\Morton-REU\\case_study_sims\\R scripts'
+mydir = 'C:\\Users\\XXX\\Documents\\XXX-XXX\\case_study_sims\\R scripts'
 setwd(mydir)
 write.csv(species_pwfst_df, "case_study_fst.csv")

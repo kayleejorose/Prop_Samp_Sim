@@ -1,5 +1,5 @@
 #analysis_data_prep
-#Code written by Kaylee Rosenberger, Emily Schumacher, and Dr. Sean Hoban in collaboration
+#Code written by XXX, XXX, and XXX in collaboration
 #This file converts the results arrays into data frames for utility in ggplot2
 #Columns are added to the dataframes to keep track of scenario and strategy variables
 
@@ -13,7 +13,7 @@ library(ggsignif)
 library(tidyr)
 
 #set working directory and load in data from calculations R script
-setwd("C:\\Users\\kayle\\Documents\\XXX-XXX\\samp_pop_sims\\R scripts")
+setwd("C:\\Users\\XXX\\Documents\\XXX-XXX\\samp_pop_sims\\R scripts")
 load("results_highMig_highSamp.Rdata")
 load("results_lowMig_highSamp.Rdata")
 load("results_highMig_lowSamp.Rdata")

@@ -1,5 +1,5 @@
 #Code for Q. acerifolia case study
-#Code written by Kaylee Rosenberger, Emily Schumacher, and Dr. Sean Hoban in collaboration
+#Code written by XXX, XXX, and XXX in collaboration
 #This script first imports simulation data and converts Arlequin file format to genepop format
 #Next, the script loops over simulation replicates, converts each one into a temporary genind object (using Adegenet package),
 #and simulates sampling from the wild populations by selecting a random number of individuals 
@@ -26,7 +26,7 @@ library(hierfstat)
 imported = TRUE
 
 #Set working directory
-mydir = 'C:\\Users\\kayle\\Documents\\Morton-REU\\case_study_sims\\Simulations\\q_acerifolia'
+mydir = 'C:\\Users\\XXX\\Documents\\XXX-XXX\\case_study_sims\\Simulations\\q_acerifolia'
 setwd(mydir)
 
 #Defining an import function
